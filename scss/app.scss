@@ -1,0 +1,203 @@
+@charset 'utf-8';
+
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+
+// Global styles
+@include foundation-global-styles;
+@include foundation-forms;
+@include foundation-typography;
+
+// Grids (choose one)
+@include foundation-xy-grid-classes;
+// @include foundation-grid;
+// @include foundation-flex-grid;
+
+// Generic components
+@include foundation-button;
+@include foundation-button-group;
+@include foundation-close-button;
+@include foundation-label;
+@include foundation-progress-bar;
+@include foundation-slider;
+@include foundation-range-input;
+@include foundation-switch;
+@include foundation-table;
+// Basic components
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-dropdown;
+@include foundation-pagination;
+@include foundation-tooltip;
+
+// Containers
+@include foundation-accordion;
+@include foundation-media-object;
+@include foundation-orbit;
+@include foundation-responsive-embed;
+@include foundation-tabs;
+@include foundation-thumbnail;
+// Menu-based containers
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-accordion-menu;
+@include foundation-drilldown-menu;
+@include foundation-dropdown-menu;
+
+// Layout components
+@include foundation-off-canvas;
+@include foundation-reveal;
+@include foundation-sticky;
+@include foundation-title-bar;
+@include foundation-top-bar;
+
+// Helpers
+@include foundation-float-classes;
+@include foundation-flex-classes;
+@include foundation-visibility-classes;
+// @include foundation-prototype-classes;
+
+// Motion UI
+@include motion-ui-transitions;
+@include motion-ui-animations;
+
+$global-margin: 1rem;
+
+body {
+    background: rgb(209, 199, 225);
+    background: linear-gradient(222deg, rgba(209, 199, 225, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+#badge-acreditacion {
+    max-width: 300px;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 999;
+}
+.button{
+    font-weight: bold;
+}
+.top-bar {
+    font-family: "hk_groteskbold","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    .menu-text {
+        color: $white;
+        img{
+            max-width: 250px;
+        }
+    }
+
+    a {
+        color: $white;
+    }
+
+    a:hover,
+    a:focus {
+        color: $white;
+        text-decoration: underline;
+    }
+
+    .is-dropdown-submenu-item a {
+        color: $primary-color;
+    }
+    .dropdown.menu > li.opens-right > .is-dropdown-submenu{
+        padding: 1rem 0;
+    }
+    .submenu{
+        border: 1px solid rgba(0,0,0,.1);
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        border-radius: 3px;
+    }
+}
+
+.orbit {
+    .orbit-bullets {
+        background-color: none;
+    }
+}
+
+.page-content {
+    h2 {
+        margin: $global-margin*4 0;
+        img{
+            max-width: 250px;
+        }
+        font-size: 2.1rem;
+    }
+
+    h3 {
+        margin-bottom: $global-margin*4/2;
+        font-size: 1.5rem;
+        font-family: 'hk_groteskmedium';
+        letter-spacing: -0.3px;
+    }
+    h4{
+        font-family: 'hk_groteskmedium';
+        letter-spacing: -0.3px;
+    }
+    .callout {
+        padding: 4rem;
+        border-radius: 3px;
+    }
+
+    .card {
+        max-width: 100% important;
+        margin-top: $global-margin*4;
+
+        .card-divider {
+            min-height: 56px;
+        }
+
+        h4 {
+            font-size: 1rem;
+            margin-right: 1rem;
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
+#index-youtube{
+    margin-bottom: $global-margin*4;
+    .wrapper-iframe {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        padding-top: 25px;
+        height: 0;
+    }
+    .wrapper-iframe iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+.social-footer {
+    background: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    .social-footer-icons {
+      li:last-of-type {
+        margin-right: 0;
+      }
+  
+      .fa {
+        font-size: 1.3rem;
+        color: $white;
+  
+        &:hover {
+          color: darken($dark-gray, 25%);
+          transition: color 0.3s ease-in;
+        }
+      }
+    }
+  }
+  
+  
