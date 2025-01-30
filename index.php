@@ -12,42 +12,12 @@
 
 <body>
 
-  <div id="badge-acreditacion">
-    <img src="assets/acreditacion.jpg" alt="">
-  </div>
-
-  <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-    <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
-    <div class="title-bar-title">Menu</div>
-  </div>
-
-  <div class="top-bar" id="responsive-menu">
-    <div class="top-bar-left">
-      <ul class="dropdown menu align-middle" data-dropdown-menu>
-        <li class="menu-text"><img src="assets/logo-1.png"></li>
-        <li><a href="#0">Portada</a></li>
-        <li class="has-submenu">
-          <a href="#0">Doctorado</a>
-          <ul class="submenu menu vertical" data-submenu>
-            <li><a href="#0">Presentación</a></li>
-            <li><a href="#0">Académicos</a></li>
-            <li><a href="#0">Estudiantes y Graduad@s</a></li>
-          </ul>
-        </li>
-        <li><a href="#0">Plan de Estudios</a></li>
-        <li><a href="#0">Investigación</a></li>
-        <li><a href="#0">Laboratorios</a></li>
-        <li><a href="#0">Admisión</a></li>
-      </ul>
-    </div>
-    <div class="top-bar-right">
-     
-    </div>
-  </div>
+  <?php include('parts/menu.php'); ?>
+  
 
 
 
-  <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-use-m-u-i="false">
     <div class="orbit-wrapper">
       <div class="orbit-controls">
         <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
@@ -78,7 +48,7 @@
     </div>
   </div>
 
-  <div class="page-content">
+  <div class="page-content" id="index-content">
     <!-- textos introduccion -->
     <div class="grid-container">
       <div class="grid-x grid-margin-y">
@@ -91,13 +61,13 @@
           <h3>Formamos <b>investigadores de excelencia en ciencia psicológica</b>, sensibles al rol que la
             cultura puede ejercer en las disposiciones y procesos psicológicos y en los comportamientos de las personas
           </h3>
-          <a href="#" class="button">saber más</a>
+          <a href="page-plandeestudios.php" class="button">saber más</a>
         </div>
-        <div class="small-10 small-offset-1 medium-6 medium-offset-1">
+        <div class="small-10 small-offset-1 medium-6 medium-offset-1 cell">
           <div class="callout">
-            <p>En el <b>DOCPSI no se excluye a las personas ni se les trata de manera diferente</b> debido a su etnia,
+            <p>En el <span class="text-underline">DOCPSI no se excluye a las personas ni se les trata de manera diferente</span> debido a su etnia,
               nacionalidad, edad, discapacidad o sexo.</p>
-            <a href="#">It's dangerous to go alone, take this.</a>
+            <p><b>Conoce  <a href="page-presentacion.php">nuestro programa</a></b></p>
           </div>
         </div>
       </div>
@@ -203,41 +173,5 @@
     </div>
   </div>
 
-  <!-- FOOTER -->
-  <footer class="social-footer">
-    <div class="social-footer-left">
-      <a href="https"><img class="logo" src="assets/Logo-2022-UFRO.png"></a>
-    </div>
-    <div class="social-footer-icons">
-      <ul class="menu simple">
-        <li><a href="https://www.facebook.com/">facebook</a></li>
-        <li><a href="https://www.instagram.com/?hl=en">Instagram</a></li>
-      </ul>
-    </div>
-  </footer>
-  
-  
 
-
-
-
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/5.2.12/what-input.min.js" integrity="sha512-jdMp80Gf2e7K/JH3+mucRwyeRaqRPD+ykSpkmbBqxWMMCfEZEL9PF0zzF3JEgV4IVNj6eTjV8X41e7Gz5nNwyA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.9.0/js/foundation.min.js" integrity="sha512-P4f0g0iAkyfUF2V2VX8dxkoBxPLULaV2TM8HQGXFRb75AzLVAf+sn+MRweu/C81rL2JaYutbY6cWAbmwJbtOcg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
-  <script src="js/app.js"></script>
-  <!--Smooth scroll-->
-  <script>
-    const lenis = new Lenis()
-    lenis.on('scroll', (e) => {
-      console.log(e)
-    })
-    function raf(time) {
-      lenis.raf(time)
-      requestAnimationFrame(raf)
-    }
-    requestAnimationFrame(raf)
-  </script>
-</body>
-
-</html>
+  <?php include('parts/footer.php'); ?>
