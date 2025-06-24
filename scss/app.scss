@@ -70,6 +70,7 @@ $global-radius: 3px;
 body {
     background: rgb(209, 199, 225);
     background: linear-gradient(222deg, rgba(209, 199, 225, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    overflow-x: hidden;
 }
 
 img {
@@ -180,7 +181,7 @@ img {
             max-width: 250px;
         }
 
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         text-transform: none;
     }
 
@@ -209,6 +210,11 @@ img {
         text-decoration: underline;
     }
 
+    .section-content{
+        border-bottom: 1px solid $medium-gray;
+        padding-bottom: $global-margin*2;
+    }
+    
     .callout {
         padding: 4rem;
         border-radius: 3px;
@@ -218,8 +224,8 @@ img {
         min-width: 100% important;
         width: 100%;
         margin: 0 auto;
-        margin-top: $global-margin*3;
-
+        margin-top: $global-margin*2;
+        text-align: center;
         .card-divider {
             min-height: 56px;
         }
@@ -247,7 +253,7 @@ img {
         }
 
         .envelope-img-level1 {
-            max-height: 290px;
+            /*max-height: 290px;*/
             overflow: hidden;
             border-radius: $global-radius;
             mix-blend-mode: multiply;
@@ -258,7 +264,7 @@ img {
         }
 
         .envelope-img-level2 {
-            max-height: 180px;
+            /*max-height: 180px;*/
             overflow: hidden;
             border-radius: $global-radius;
             mix-blend-mode: multiply;
@@ -318,7 +324,6 @@ img {
     }
 
     #section-colaboradoras {
-        margin-top: $global-margin*3;
         padding: $global-margin 0 $global-margin*3 0;
         background: lighten($primary-color, 60%);
 
@@ -400,6 +405,10 @@ img {
 .padding-fullwidth-3col {
     padding: 0 $global-margin*2;
 
+}
+#page-investigadores-content{
+    padding-right: $global-margin*2;
+    padding-left: $global-margin*2;
 }
 #page-admision-content{
     .orbit{

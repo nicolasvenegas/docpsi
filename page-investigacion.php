@@ -1,0 +1,232 @@
+<?php include('inc/header.php'); ?>
+
+  <div class="page-content padding-bottom-content" id="page-investigadores-content">
+    <!-- textos introduccion -->
+      <div class="grid-x grid-margin-x grid-margin-y text-center">
+        <div class="small-10 small-offset-1 cell">
+          <h2>Líneas de Investigación </h2>
+        </div>
+      </div>
+      <!-- fila 1 lineas -->
+      <div class="grid-x grid-margin-x grid-margin-y">
+        <div class="small-10 small-offset-1 medium-4 medium-offset-0 cell">
+          <h3><b class="label">línea</b><br />Psicología y Salud</h3>
+          <p>Esta línea de investigación aborda el estudio de los factores psicológicos implicados en la salud y la enfermedad, con especial énfasis en el estrés psicológico y su impacto en la salud mental, las conductas relacionadas con la salud y los desenlaces físicos en distintos grupos poblacionales. Se investigan los procesos psicobiológicos, conductuales y sociales que median la relación entre el estrés y diversos indicadores de salud, tanto a nivel individual como colectivo. Desde un enfoque interdisciplinario e integrando herramientas de la epidemiología y la salud pública, esta línea busca generar conocimiento relevante para la promoción de la salud, la prevención de enfermedades crónicas y la mejora del bienestar general en contextos diversos.</p>
+          <p><small><b>Palabras Claves:</b> estrés psicológico, salud mental, desenlaces en salud, conductas en salud,
+              epidemiología, salud poblacional.</small></p>
+          <br />
+          <ul class="accordion" data-accordion data-allow-all-closed="true">
+            <li class="accordion-item" data-accordion-item>
+              <!-- Accordion tab title -->
+              <a href="#" class="accordion-title">
+                <h3>Temas de investigación del cuerpo académico </h3>
+              </a>
+              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+              <div class="accordion-content" data-tab-content>
+                <ul>
+                  <li><b>Dr. Manuel Ortiz</b>. Su línea de investigación se centra en la psicología de la salud y la medicina conductual, con énfasis en el estudio del estrés psicológico y su relación con enfermedades crónicas como la diabetes tipo 1 y 2 y la obesidad. También investiga factores psicológicos que influyen en la adherencia al tratamiento médico, especialmente en pacientes con condiciones crónicas.</li>
+                  <li><b>Dra. Natalia Salinas</b>. Investiga los procesos de estigmatización en salud mental, enfocándose en cómo variables psicológicas y culturales influyen en la búsqueda y uso de servicios psicológicos. Su trabajo busca comprender las barreras sociales y personales que afectan el acceso a atención en salud mental.</li>
+                  <li><b>Dra. Daniela Gómez</b>. Su investigación se enfoca en el estigma de peso y sus consecuencias psicológicas y conductuales en personas con obesidad. Estudia las creencias sociales sobre el peso y la discriminación ejercida por profesionales de la salud. Además, trabaja en el análisis de la adherencia a intervenciones centradas en actividad física en pacientes con enfermedades cardiovasculares.</li>
+                  <li><b>Dr. Nicolás Aguilar</b>. Lidera investigaciones orientadas a la promoción del bienestar y los estilos de vida saludables a nivel comunitario y regional. Ha desarrollado un modelo e índice de oportunidades de bienestar en Temuco, y colabora en iniciativas como Elige Vivir Sano y proyectos con UNICEF en comunidades escolares. También evalúa políticas públicas de promoción de la actividad física en Chile y América Latina.</li>
+                  <li><b>Dra. Francisca Román</b>. Estudia el consumo de sustancias en adultos emergentes, con especial atención a las estrategias conductuales protectoras. También investiga el rol de las normas sociales en el consumo de alcohol, particularmente en mujeres jóvenes, abordando factores de riesgo y protección en contextos sociales.</li>
+                  <li><b>Dra. Teresa Balboa</b>. Su línea de investigación se centra en la epidemiología cardiovascular, particularmente en los efectos de la actividad física, el sedentarismo y la obesidad sobre la salud. Su trabajo busca generar evidencia para el diseño de estrategias preventivas a nivel poblacional.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <!-- Accordion tab title -->
+              <a href="#" class="accordion-title">
+                <h3>Estudiantes adscritas/os</h3>
+              </a>
+              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+              <div class="accordion-content" data-tab-content>
+                <ul>
+                  <li>Daniela Vera</li>
+                  <li>Francisca Oyarzún</li>
+                  <li>María José Segú</li>
+                  <li>Fernanda Bastías</li>
+                  <li>Natalia Quijada</li>
+                </ul>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <!-- Accordion tab title -->
+              <a href="#" class="accordion-title">
+                <h3>Egresadas/os</h3>
+              </a>
+              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+              <div class="accordion-content" data-tab-content>
+                <ul>
+                  <li>María José Rivera</li>
+                  <li>Natalia Salinas</li>
+                  <li>Daniela Gómez</li>
+                  <li>Belén Salinas </li>
+                  <li>Sebastián Neira</li>
+                  <li>Jorge Schleef</li>
+                  <li>Mauro Olivera</li>
+                </ul>
+              </div>
+            </li>
+            <!-- <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">
+                <h3>Proyectos de investigación</h3>
+              </a>
+              <div class="accordion-content" data-tab-content>
+                <p>Actividades curriculares que tienen por objetivo que los estudiantes desarrollen habilidades de
+                  trabajo en equipo, realicen trabajos de investigación conjunta con estudiantes de todos los niveles
+                  de formación, preparen exposiciones orales, analicen datos, entre otras actividades. Estas
+                  actividades están directamente vinculadas a las actividades desarrolladas en los Laboratorios de
+                  Investigación de los cuales dispone el Programa. Corresponde al 10% de los créditos del plan de
+                  estudios y considera además las actividades relacionadas a la docencia supervisada y pasantía
+                  doctoral.</p>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+        <div class="small-10 small-offset-1 medium-4 medium-offset-0 cell">
+          <h3><b class="label">línea</b><br />Psicología y Procesos Sociales</h3>
+          <p>Esta línea de investigación se enfoca en el estudio de los procesos psicosociales que estructuran las dinámicas entre individuos y grupos en contextos marcados por desigualdades sociales. Aborda el análisis de variables como actitudes, prejuicio, estereotipos y discriminación, explorando su papel en la reproducción de la inequidad, la vulneración de derechos y la configuración de las relaciones intergrupales. Asimismo, se investiga cómo estos procesos afectan el bienestar subjetivo, la identidad social y las experiencias de distintos colectivos, con especial atención a cuestiones de género y otros ejes de diferencia social. El objetivo es generar conocimiento que contribuya a la comprensión y transformación de las condiciones sociales que perpetúan la exclusión y la desigualdad.</p>
+          <p><small><b>Palabras clave:</b> bienestar subjetivo, prejuicio, discriminación, estereotipos, género, actitudes, inequidad y vulneración social, relaciones intergrupales, identidad social.</small></p>
+          <br />
+          <ul class="accordion" data-accordion data-allow-all-closed="true">
+            <li class="accordion-item" data-accordion-item>
+              <!-- Accordion tab title -->
+              <a href="#" class="accordion-title">
+                <h3>Temas de investigación del cuerpo académico</h3>
+              </a>
+              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+              <div class="accordion-content" data-tab-content>
+                <ul>
+                  <li><b>Dr. José Sepúlveda</b>. Su investigación se centra en los efectos psicológicos de la lectura de ficción, particularmente en el desarrollo de la empatía, utilizando técnicas como la termografía facial para el análisis emocional. Además, explora la relación entre el bienestar económico y el bienestar subjetivo, abordando cómo las condiciones materiales influyen en la percepción de calidad de vida.</li>
+                  <li><b>Dra. Ligia Orellana</b>. Estudia temáticas vinculadas a la orientación sexual e identidad de género, incluyendo bienestar psicológico, prejuicio, normas sociales, contacto intergrupal y representación en medios de comunicación. Su trabajo contribuye a la comprensión de los factores que promueven o dificultan la inclusión social de personas LGBTQ+ en distintos contextos.</li>
+                  <li><b>Dra. Camila Salazar</b>. Investiga cómo son percibidos los grupos minoritarios y desaventajados en Chile, analizando estereotipos, emociones y conductas hacia estos colectivos. Su trabajo busca comprender las dinámicas de exclusión social desde una perspectiva psicosocial, con énfasis en la construcción de relaciones intergrupales.</li>
+                  <li><b>Dra. Pamela Jiménez</b>. Su línea de investigación aborda los efectos de experiencias adversas en la infancia, como la institucionalización, en el desarrollo infantil. También se enfoca en la toma de decisiones dentro del sistema de protección infantil, explorando factores psicológicos y contextuales como las actitudes y la pobreza que influyen en dicho proceso.</li>
+                  <li><b>Dra. Carolina Hidalgo</b>. Estudia las prácticas pedagógicas transformadoras implementadas por docentes que actúan como agentes de cambio en sus comunidades educativas. Su investigación destaca el rol del profesorado en la promoción de inclusión, equidad y desarrollo socioemocional en contextos escolares.</li>
+                  <li><b>Dra. Lorena Wenger</b>. Su investigación se centra en el desarrollo socioemocional de adolescentes, con especial interés en el fortalecimiento de competencias que promuevan su bienestar, adaptación social y participación activa en sus comunidades.</li>
+                </ul>
+
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <!-- Accordion tab title -->
+              <a href="#" class="accordion-title">
+                <h3>Estudiantes adscritas/os</h3>
+              </a>
+              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+              <div class="accordion-content" data-tab-content>
+                <ul>
+                  <li>Lea Vallejos</li>
+                  <li>Abner Silva</li>
+                </ul>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <!-- Accordion tab title -->
+              <a href="#" class="accordion-title">
+                <h3>Egresadas/os</h3>
+              </a>
+              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+              <div class="accordion-content" data-tab-content>
+                 <ul>
+                  <li>Camila Salazar</li>
+                  <li>Marcoantonio Villanueva</li>
+                  <li>Regina Navarro</li>
+                  <li>Ana Barrera</li>
+                  <li>Tomás Gaete</li>
+                  <li>Marcela Rodríguez</li>
+                  <li>Sergio Chesta</li>
+                  <li>Andrés Concha</li>
+                  <li>Luis Mario Castellanos</li>
+                </ul>
+            </li>
+            <!-- <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">
+                <h3>Proyectos de investigación</h3>
+              </a>             <div class="accordion-content" data-tab-content>
+                <p>Actividades curriculares que tienen por objetivo que los estudiantes desarrollen habilidades de
+                  trabajo en equipo, realicen trabajos de investigación conjunta con estudiantes de todos los niveles
+                  de formación, preparen exposiciones orales, analicen datos, entre otras actividades. Estas
+                  actividades están directamente vinculadas a las actividades desarrolladas en los Laboratorios de
+                  Investigación de los cuales dispone el Programa. Corresponde al 10% de los créditos del plan de
+                  estudios y considera además las actividades relacionadas a la docencia supervisada y pasantía
+                  doctoral.</p>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+        <div class="small-10 small-offset-1 medium-4 medium-offset-0 cell">
+          <h3><b class="label">línea</b><br />Psicología y Cognición</h3>
+          <p>Esta línea de investigación se enfoca en el estudio de los procesos cognitivos —como la atención, memoria, lenguaje y aprendizaje— y su relación con diversos desenlaces en contextos educativos, sociales y del ciclo vital. Se abordan tanto los mecanismos que subyacen al funcionamiento cognitivo como los factores que lo afectan, tales como el envejecimiento, el entorno educativo y las experiencias de vida. Además, se exploran implicancias prácticas para la enseñanza, la intervención cognitiva y la promoción del desarrollo cognitivo en diferentes etapas del desarrollo humano.</p>
+          <p><small><b>Palabras clave:</b> envejecimiento, cognición, aprendizaje, lenguaje, enseñanza.</small></p>
+          <br />
+          <ul class="accordion" data-accordion data-allow-all-closed="true">
+            <li class="accordion-item" data-accordion-item>
+              <!-- Accordion tab title -->
+              <a href="#" class="accordion-title">
+                <h3>Temas de investigación del cuerpo académico</h3>
+              </a>
+              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+              <div class="accordion-content" data-tab-content>
+                <ul>
+                  <li><b>Paula Alonqueo</b>. Su investigación se centra en el desarrollo del lenguaje en niños Mapuche y no Mapuche, explorando las particularidades del aprendizaje infantil en contextos interculturales. Aborda cómo la diversidad cultural y lingüística influye en los procesos de adquisición del lenguaje y desarrollo cognitivo en la infancia.</li>
+                  <li><b>Vicente Cancino</b>. Especialista en salud cognitiva, su trabajo investiga el funcionamiento cognitivo y su relación con la salud en adultos y personas mayores. Estudia los mecanismos que subyacen al mantenimiento y al deterioro cognitivo durante el envejecimiento, con énfasis en la promoción del envejecimiento saludable.</li>
+                  <li><b>Enrique Hinostroza</b>. Su línea de investigación analiza los usos, beneficios y desafíos de las tecnologías digitales en el aprendizaje y los procesos cognitivos de estudiantes y docentes dentro del sistema escolar. Evalúa cómo estas tecnologías pueden potenciar o limitar los logros educativos y el desarrollo cognitivo.</li>
+                  <li><b>Christian Labbé</b>. Investiga los factores asociados a la evaluación del desempeño docente mediante ambientes digitales, considerando tanto aspectos tecnológicos como pedagógicos. Su trabajo busca optimizar los procesos evaluativos para mejorar la calidad educativa en entornos digitales.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <!-- Accordion tab title -->
+              <a href="#" class="accordion-title">
+                <h3>Estudiantes adscritas/os</h3>
+              </a>
+              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+              <div class="accordion-content" data-tab-content>
+                <ul>
+                  <li>Damián Medina</li>
+                  <li>Tomás Espinoza</li>
+                  <li>Gissel Vejar</li>
+                  <li>Fernanda Marilicán</li>
+                </ul>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <!-- Accordion tab title -->
+              <a href="#" class="accordion-title">
+                <h3>Egresadas/os</h3>
+              </a>
+              <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+              <div class="accordion-content" data-tab-content>
+                <ul>
+                  <li>Miriam León</li>
+                  <li>Patricio Mena</li>
+                  <li>Óscar Terán</li>
+                  <li>Claudio Bascour</li>
+                  <li>Vicente Cancino</li>
+                  <li>Rebeca Muñoz</li>
+                  <li>Andrea Ibieta</li>
+                </ul>
+              </div>
+            </li>
+            <!-- <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">
+                <h3>Proyectos de investigación</h3>
+              </a>
+              <div class="accordion-content" data-tab-content>
+                <p>Actividades curriculares que tienen por objetivo que los estudiantes desarrollen habilidades de
+                  trabajo en equipo, realicen trabajos de investigación conjunta con estudiantes de todos los niveles
+                  de formación, preparen exposiciones orales, analicen datos, entre otras actividades. Estas
+                  actividades están directamente vinculadas a las actividades desarrolladas en los Laboratorios de
+                  Investigación de los cuales dispone el Programa. Corresponde al 10% de los créditos del plan de
+                  estudios y considera además las actividades relacionadas a la docencia supervisada y pasantía
+                  doctoral.</p>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+  </div>
+
+
+
+<?php include('inc/footer.php'); ?>
