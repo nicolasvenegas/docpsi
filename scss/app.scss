@@ -88,10 +88,19 @@ img {
 .button {
     font-weight: bold;
 }
+.orbit-bullets button {
+  background-color: #959595;
+}
+.orbit-bullets button.is-active {
+  background-color: $primary-color;
+}
 .label{
     border-radius: $global-radius;
     padding: 0.6rem 1rem;
     margin-bottom: $global-margin/2;
+}
+.title-bar{
+    background: $primary-color;
 }
 .top-bar {
     font-family: "hk_groteskbold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -434,6 +443,10 @@ img {
             padding: 3rem;
         }
     }
+}
+#plan-estudios{
+    mix-blend-mode: multiply;
+  margin: 2rem 0;
 }
 .grid-temas{
     margin-bottom: $global-margin*3;
