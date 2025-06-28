@@ -88,20 +88,28 @@ img {
 .button {
     font-weight: bold;
 }
+
 .orbit-bullets button {
-  background-color: #959595;
+    background-color: #959595;
 }
+
 .orbit-bullets button.is-active {
-  background-color: $primary-color;
+    background-color: $primary-color;
 }
-.label{
+
+.label {
     border-radius: $global-radius;
     padding: 0.6rem 1rem;
     margin-bottom: $global-margin/2;
 }
-.title-bar{
+span.marcador{
+    color: $success-color;
+}
+
+.title-bar {
     background: $primary-color;
 }
+
 .top-bar {
     font-family: "hk_groteskbold", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 
@@ -159,7 +167,9 @@ img {
 #index-content {
     h2 {
         text-transform: none;
-        margin-bottom: $global-margin*2;
+        padding: $global-margin*4 0;
+        margin: 0;
+        font-size: 2.1rem;
     }
 
     .card {
@@ -176,12 +186,14 @@ img {
         }
     }
 }
-.button-group-form{
-    .button:hover{
+
+.button-group-form {
+    .button:hover {
         color: $white !important;
-    background: $primary-color !important;
+        background: $primary-color !important;
     }
 }
+
 .page-content {
     h2 {
         margin: $global-margin*3 0 $global-margin;
@@ -219,11 +231,11 @@ img {
         text-decoration: underline;
     }
 
-    .section-content{
+    .section-content {
         border-bottom: 1px solid $medium-gray;
         padding-bottom: $global-margin*2;
     }
-    
+
     .callout {
         padding: 4rem;
         border-radius: 3px;
@@ -235,12 +247,14 @@ img {
         margin: 0 auto;
         margin-top: $global-margin*2;
         text-align: center;
+
         .card-divider {
             min-height: 56px;
         }
 
         .card-section {
-            padding: 1rem 0 0 0; /*1rem 0 0;*/
+            padding: 1rem 0 0 0;
+            /*1rem 0 0;*/
         }
 
         p {
@@ -287,16 +301,21 @@ img {
     .accordion {
         border-radius: 5px;
         overflow: hidden;
-        .accordion-title{
+
+        .accordion-title {
             border: 0;
         }
-        .accordion-content{
+
+        .accordion-content {
             background: #fefefea8;
         }
-        .accordion-title:hover, .accordion-title:focus {
+
+        .accordion-title:hover,
+        .accordion-title:focus {
             background-color: $primary-color;
             color: $white;
-          }
+        }
+
         h3 {
             margin: 0;
             text-transform: none;
@@ -323,11 +342,9 @@ img {
             padding: .85em 1.2em;
         }
 
-        .button:first-child:hover{
-            
-        }
+        .button:first-child:hover {}
     }
-   
+
     .pie-imagen {
         margin-top: $global-margin/2;
     }
@@ -388,13 +405,15 @@ img {
         text-align: center;
     }
 
-    
+
 }
+
 .button-group {
     margin: 0 auto;
     text-align: center;
     display: inline-flex;
 }
+
 .col5-unit {
     @include grid-column(2.4); // (12/5 = 2.4)
 }
@@ -415,39 +434,55 @@ img {
     padding: 0 $global-margin*2;
 
 }
-#page-investigadores-content{
+
+#page-investigadores-content {
     padding-right: $global-margin*2;
     padding-left: $global-margin*2;
 }
-#page-admision-content{
-    .orbit{
+
+#page-admision-content {
+    .orbit {
         padding: 3rem 3rem 0 3rem;
-        p{
+
+        p {
             font-size: 0.9rem;
         }
-        p a{
+
+        p a {
             text-decoration: underline;
             font-weight: bold;
         }
-        p i{
+
+        p i {
             font-size: 60px !important;
         }
-        .orbit-container{
-            display:flex;
+
+        .orbit-container {
+            display: flex;
             justify-content: center;
             align-items: center;
         }
-        .orbit-wrapper{
+
+        .orbit-wrapper {
             background: #d8d8ee;
-            border: 1px solid rgba(0,0,0,0.1);
+            border: 1px solid rgba(0, 0, 0, 0.1);
             padding: 3rem;
         }
     }
 }
-#plan-estudios{
-    mix-blend-mode: multiply;
-  margin: 2rem 0;
+
+#grid-container-orbit {
+    margin-top: $global-margin*3;
+    .orbit-wrapper {
+        overflow: hidden;
+        border-radius: 15px;
+    }
 }
-.grid-temas{
+#plan-estudios {
+    mix-blend-mode: multiply;
+    margin: 2rem 0;
+}
+
+.grid-temas {
     margin-bottom: $global-margin*3;
 }
