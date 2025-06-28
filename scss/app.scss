@@ -162,6 +162,23 @@ span.marcador{
     .orbit-bullets {
         background-color: none;
     }
+    .orbit-next{
+        border: 2px solid rgba(255,255,255,.35);
+        right: 10px;
+        transition: all .4s ease-in-out;
+        color: rgba(255,255,255,.35);
+    }
+    .orbit-next:hover, .orbit-next:focus, .orbit-previous:hover, .orbit-previous:focus{
+        background-color: rgba(255,255,255,0.75);
+        border-color: $white;
+        color: $primary-color;
+    }
+    .orbit-previous{
+        border: 2px solid rgba(255,255,255,.35);
+        left: 10px;
+        transition: all .4s ease-in-out;
+        color: rgba(255,255,255,.35);
+    }
 }
 
 #index-content {
