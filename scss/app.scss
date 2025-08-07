@@ -102,7 +102,8 @@ img {
     padding: 0.6rem 1rem;
     margin-bottom: $global-margin/2;
 }
-span.marcador{
+
+span.marcador {
     color: $success-color;
 }
 
@@ -162,22 +163,28 @@ span.marcador{
     .orbit-bullets {
         background-color: none;
     }
-    .orbit-next{
-        border: 2px solid rgba(255,255,255,.35);
+
+    .orbit-next {
+        border: 2px solid rgba(255, 255, 255, .35);
         right: 10px;
         transition: all .4s ease-in-out;
-        color: rgba(255,255,255,.35);
+        color: rgba(255, 255, 255, .35);
     }
-    .orbit-next:hover, .orbit-next:focus, .orbit-previous:hover, .orbit-previous:focus{
-        background-color: rgba(255,255,255,0.75);
+
+    .orbit-next:hover,
+    .orbit-next:focus,
+    .orbit-previous:hover,
+    .orbit-previous:focus {
+        background-color: rgba(255, 255, 255, 0.75);
         border-color: $white;
         color: $primary-color;
     }
-    .orbit-previous{
-        border: 2px solid rgba(255,255,255,.35);
+
+    .orbit-previous {
+        border: 2px solid rgba(255, 255, 255, .35);
         left: 10px;
         transition: all .4s ease-in-out;
-        color: rgba(255,255,255,.35);
+        color: rgba(255, 255, 255, .35);
     }
 }
 
@@ -490,11 +497,13 @@ span.marcador{
 
 #grid-container-orbit {
     margin-top: $global-margin*3;
+
     .orbit-wrapper {
         overflow: hidden;
         border-radius: 15px;
     }
 }
+
 #plan-estudios {
     mix-blend-mode: multiply;
     margin: 2rem 0;
@@ -502,4 +511,17 @@ span.marcador{
 
 .grid-temas {
     margin-bottom: $global-margin*3;
+}
+
+@media screen and (max-width: 39.9375em) {
+    .orbit {
+
+        .orbit-next {
+            right: -25px;
+        }
+
+        .orbit-previous {
+            left: -25px;
+        }
+    }
 }
