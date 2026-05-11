@@ -342,18 +342,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
   <script src="js/app.js"></script>
-  <!--Smooth scroll-->
-  <script>
-    const lenis = new Lenis()
-    lenis.on('scroll', (e) => {
-      console.log(e)
-    })
-    function raf(time) {
-      lenis.raf(time)
-      requestAnimationFrame(raf)
-    }
-    requestAnimationFrame(raf)
-  </script>
+
 </body>
 
 </html>

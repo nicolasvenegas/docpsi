@@ -1,0 +1,41 @@
+/* style.css */
+.grid-gallery .cell {
+  margin-bottom: 1rem; /* Espaciado vertical entre filas */
+}
+
+.grid-gallery img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #f0f0f0;
+  
+  /* Fade-in */
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.grid-gallery img.loaded {
+  opacity: 1;
+}
+
+/* Efecto de fondo estilo 2026 */
+.reveal-overlay {
+  backdrop-filter: blur(8px);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.reveal.full {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+#img-target {
+  max-height: 85vh;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+ /* Tu estilo para el fade-in */
+  .grid-gallery img { opacity: 0; transition: opacity 0.5s; cursor: zoom-in; }
+  .grid-gallery img.loaded { opacity: 1; }
