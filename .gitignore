@@ -1,8 +1,8 @@
-node_modules/
 scss/
 hkgrotesk/
 inc/
 parts/
+node_modules/
 .gitignore
 gulpfile.js
 README.md

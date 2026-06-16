@@ -88,9 +88,13 @@ img {
 .button {
     font-weight: bold;
 }
-
-.orbit-bullets button {
-    background-color: #959595;
+.orbit-bullets{
+    margin: 1.8rem 0 0.8rem;
+ button {
+  background-color: rgba(0,0,0,0.25);
+  width: 1rem;
+  height: 1rem;
+ }
 }
 
 .orbit-bullets button.is-active {
@@ -166,6 +170,9 @@ span.marcador {
     border-radius: $global-radius;
     background: linear-gradient(270deg, #d7c2a3, #6d8dce);
     background-size: 400% 400%;
+     p, li{
+        font-size: .9rem;
+    }
     
 
     -webkit-animation: AnimationName 30s ease infinite;
@@ -522,10 +529,10 @@ span.marcador {
 
 #page-admision-content {
     .orbit {
-        padding: 3rem 3rem 0 3rem;
-
+        padding: 1rem 1rem 0;
+        margin-top: 3rem;
         p {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
 
         p a {
@@ -544,7 +551,7 @@ span.marcador {
         }
 
         .orbit-wrapper {
-            background: #d8d8ee;
+            background: #d8d8ee87;
             border: 1px solid rgba(0, 0, 0, 0.1);
             padding: 3rem;
         }
